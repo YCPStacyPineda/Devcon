@@ -46,6 +46,43 @@ body {
     padding:0;
 }
 
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Rubik', sans-serif;
+  font-size: 48px;
+}
+
+.centered_sub {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+}
+
 html {
     display: grid;
+}
+
+.logo_small {
+    bottom: 27.57%;
+    width: 21.69px;
+}
+
+.background_image {
+position: absolute;
+top: 73px;
+width: 1400px;
+}
+
+/* line */
+hr {
+display: block;
+border: 0px;
+background:url('shoes.jpg') no repeat top center;
 }

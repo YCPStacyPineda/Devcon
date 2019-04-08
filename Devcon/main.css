@@ -2,23 +2,26 @@ h1 {
   font-family: 'Rubik', sans-serif;
   font-size: 48px;
   color: #4F372D;
+
 }
 
 h2 {
-  font-family: 'Alegreya', serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 18px;
+  font-weight: 400;
 }
 
 ul {
-  padding: 20px;
   text-align: center;
   list-style: none;
-  margin: 0;
+  margin: 0px;
   font-family: 'Alegreya Sans', sans-serif;
 }
 
 .a{
-  padding: 10px;
+  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: center;
   text-decoration: none;
   color: #FF0000;
@@ -35,6 +38,21 @@ ul {
   left: -3px;
   top: 74px;
   padding:20px;
+  width: 100%;
+  margin-top: -18px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header_info {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.push_me {
+  margin-right: 20px;
 }
 
 .main_nav {
@@ -44,10 +62,12 @@ ul {
   margin: auto;
   flex-direction: row;
   width: 100%;
+
 }
 
 .main_nav ul {
  display: flex;
+
 }
 
 .main_nav ul li {
@@ -60,8 +80,29 @@ ul {
 }
 
 p {
-font-family: 'Alegreya Sans', sans-serif;
-font-size: 12px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 24px;
+  line-height: 1.5em;
+  text-align: left;
+  position: absolute;
+  background-color: #C4C4C4;
+  background: rgba(196, 196, 196, 0.74);
+  padding: 5px 9px 5px 9px;
+  top: 349px;
+}
+
+p2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 24px;
+  line-height: 1.5em;
+  text-align: left;
+  position: absolute;
+  background-color: #C4C4C4;
+  background: rgba(196, 196, 196, 0.74);
+  padding: 5px 9px 5px 9px;
+  right: 0px;
+  top: 402px;
+
 }
 
 .nav {
@@ -75,18 +116,47 @@ font-size: 12px;
   list-style: none;
 }
 
-/* Footer */
+/* Terms of service | Privacy | Legal Entities | Copyright @ 2019 Devcon LLC, All rights reserved */
 .footer {
-  padding-top: 200px;
-  padding-bottom: 5px;
-  padding-left: 20px;
+  padding: 20px;
   text-align: left;
   background: #EF5E4E;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 12px;
+margin-top: -4px;
+width: 100%;
+}
+
+.footer h3 {
+  font-weight: 400;
+  margin-left: 20px
+}
+
+.footer_menu {
+  display:flex;
+  flex-direction: row;
+}
+
+.footer_menu ul{
+  text-align: left;
 }
 
 img {
-  width: 1400px;
-  height: 1024px;
+  width: 100%;
+}
+.logo {
+  width: 81px;
+  height: 81px;
+}
+.logo_small {
+    bottom: 27.57%;
+    width: 21.69px;
+}
+body {
+    margin:0;
+    padding:0;
+}
+
+html {
+    display: grid;
 }
