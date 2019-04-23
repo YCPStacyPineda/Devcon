@@ -1,0 +1,266 @@
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 48px;
+  text-align: center;
+  color: #000000;
+margin-bottom: 0px;
+}
+
+h2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+
+
+ul {
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+.a{
+  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #FF0000;
+  font-weight: bold;
+  display: block;
+  float: left;
+  background: #FFFFFF;
+  font-size: 12px;
+}
+
+
+.header{
+  background-color:#7EB8F5;
+  height: 165px;
+  left: -3px;
+  top: 74px;
+  padding:20px;
+  width: 100%;
+  margin-top: -18px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header_info {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.push_me {
+  margin-right: 20px;
+}
+/* need */
+.main_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+  width: 100%;
+  background-color: white;
+
+}
+/* need */
+.main_nav ul {
+ display: flex;
+
+}
+/* need */
+.main_nav ul li {
+  margin: 0px 20px 0px 20px;
+}
+/* need */
+.main_nav ul li a:hover{
+  background-color: #7EB8F5;
+
+}
+
+p {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 24px;
+  line-height: 1.5em;
+  text-align: left;
+  position: absolute;
+  background-color: #C4C4C4;
+  background: rgba(196, 196, 196, 0.74);
+  padding: 5px 9px 5px 9px;
+  top: 349px;
+}
+
+p2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 24px;
+  line-height: 1.5em;
+  text-align: left;
+  position: absolute;
+  background-color: #C4C4C4;
+  background: rgba(196, 196, 196, 0.74);
+  padding: 5px 9px 5px 9px;
+  right: 0px;
+  top: 402px;
+
+}
+
+.nav {
+  text-decoration: none;
+  color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 18px;
+}
+
+.re {
+  list-style: none;
+}
+
+/* Terms of service | Privacy | Legal Entities | Copyright @ 2019 Devcon LLC, All rights reserved */
+.footer {
+  padding: 20px;
+  text-align: left;
+  background: #4F372D;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 12px;
+margin-top: -4px;
+width: 100%;
+color: white;
+}
+/* need */
+.footer h3 {
+  font-weight: 400;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+
+}
+
+/* need */
+.footer_menu {
+  display:flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+/* need */
+.footer_menu ul{
+  text-align: left;
+  padding-left: 20px;
+}
+/* need */
+.logo_small {
+    bottom: 27.57%;
+    width: 21.69px;
+}
+body {
+    margin:0;
+    padding:0;
+    background-color: #EF5E4E;
+    overflow-x: hidden;
+}
+
+/*IMAGES GRID*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.sponsor_row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 11%;
+  padding: 0 15px;
+}
+
+.sponsor_column {
+  flex: 25%;
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+  margin: 15px;
+  margin-bottom: 30px;
+}
+
+.sponsor_column img {
+  margin: 8px;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/*responsive images*/
+
+.socials {
+position: absolute;
+object-position: right;
+    padding-left: 60%;}
+
+.fa {
+  padding: 40px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #E1D6D2;
+  color: #4F372D;
+}
+
+.fa-twitter {
+  background: #E1D6D2;
+  color: #4F372D;
+}
+
+.fa-instagram {
+  background: #E1D6D2;
+  color: #4F372D;
+}
+
+html {
+    display: grid;
+}

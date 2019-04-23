@@ -1,0 +1,135 @@
+ul {
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.a{
+  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #FF0000;
+  font-weight: bold;
+  display: block;
+  float: left;
+  background: #FFFFFF;
+  font-size: 12px;
+}
+
+.main_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+  width: 100%;
+}
+
+.main_nav ul {
+ display: flex;
+}
+
+.p {
+  position: absolute;
+}
+
+.main_nav ul li {
+  margin: 0px 20px 0px 20px;
+}
+
+.main_nav ul li a:hover{
+  background-color: #7EB8F5;
+  border: 40px;
+}
+
+body {
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+/* Centered text */
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Rubik', sans-serif;
+  font-size: 48px;
+}
+
+h2 {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+}
+
+html {
+    display: grid;
+}
+
+.logo_small {
+    bottom: 27.57%;
+    width: 21.69px;
+}
+
+.background_image {
+position: absolute;
+top: 73px;
+width: 1400px;
+}
+
+.container {
+position: relative;
+}
+
+.text_block {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line */
+hr {
+display: block;
+border: 0px;
+background:url('shoes.jpg') no repeat top center;
+}
+
+.footer {
+  padding: 20px;
+  text-align: left;
+  background: #EF5E4E;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 12px;
+margin-top: -4px;
+width: 100%;
+}
+
+.footer h3 {
+  font-weight: 400;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+
+}
+
+.footer_menu {
+  display:flex;
+  flex-direction: row;
+  padding-top: 20px;
+
+}
+
+.footer_menu ul{
+  text-align: left;
+  padding-left: 20px;
+}
