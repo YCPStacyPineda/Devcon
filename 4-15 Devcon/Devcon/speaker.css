@@ -190,6 +190,17 @@ body {
   padding: 0 15px;
 }
 
+.column a {
+  text-decoration: none;
+}
+
+.speaker_grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
 .sponsor_column {
   flex: 25%;
   padding: 15px;
